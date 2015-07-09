@@ -8,7 +8,7 @@ SugarCRM Docker Container
 Features
 * Latest development build of SugarCRM <https://github.com/sugarcrm/sugarcrm_dev>
 * Official PHP 5.6 Docker image <https://registry.hub.docker.com/_/php/>
-* Official MySQL 5 Docker image <https://registry.hub.docker.com/_/mysql/>
+* Official MariaDB 10 Docker image <https://registry.hub.docker.com/_/mariadb/>
 
 ## Usage
 1. Bring up the containers with docker-compose
