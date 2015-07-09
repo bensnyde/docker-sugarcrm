@@ -3,7 +3,7 @@ SugarCRM Docker Container
 
 * Author: Benton Snyder <benton@bensnyde.me>
 * Created: 7/3/15
-* Updated: 7/3/15
+* Updated: 7/9/15
 
 Features
 * Latest development build of SugarCRM <https://github.com/sugarcrm/sugarcrm_dev>
@@ -17,6 +17,7 @@ Features
 ```
 2. Open the IP address listed in a web browser
 3. Install SugarCRM with the following
-    * Database: sugarcrm
+    * Database name: sugarcrm
+    * Database host: db
     * Database username: dbuser
     * Database password: dbuserpass
