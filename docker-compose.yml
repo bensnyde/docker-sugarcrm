@@ -1,12 +1,13 @@
 web:
   build: .
   ports:
-    - 80
+    - "80:80"
   links:
     - db
 db:
-  image: mysql
+  image: mariadb
   environment:
+    MYSQL_ROOT_PASSWORD: strongpass4root
     MYSQL_DATABASE: sugarcrm
     MYSQL_USER: dbuser
     MYSQL_PASSWORD: dbuserpass
